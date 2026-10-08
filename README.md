@@ -24,6 +24,7 @@ This project simulates a complete backend banking database ecosystem built on Or
 
 The project consists of 8 sequential SQL modules reflecting an enterprise deployment workflow:
 
+| :--- | :--- |
 | **`01_create_tablespaces.sql`** | Storage allocation: Creates dedicated Tablespaces & Datafiles |
 | **`02_create_security_profiles.sql`** | Security policies: Password complexity, failed login limits, and session idle times |
 | **`03_create_users.sql`** | User administration: Creates administrative accounts and assigns quotas/profiles |
