@@ -23,16 +23,14 @@ This project simulates a complete backend banking database ecosystem built on Or
 ## Repository Structure & Execution Order
 
 The project consists of 8 sequential SQL modules reflecting an enterprise deployment workflow:
-
-| :--- | :--- |
-| **`01_create_tablespaces.sql`** | Storage allocation: Creates dedicated Tablespaces & Datafiles |
-| **`02_create_security_profiles.sql`** | Security policies: Password complexity, failed login limits, and session idle times |
-| **`03_create_users.sql`** | User administration: Creates administrative accounts and assigns quotas/profiles |
-| **`04_create_schema.sql`** | Schema DDL: Customer, Account, Branch, and Transaction tables with constraints |
-| **`05_create_indexes_and_sequences.sql`** | Performance & Keys: B-Tree indexes for fast queries & Sequences for auto-IDs |
-| **`06_data_and_plsql.sql`** | Data & Logic: Mock data insertion & PL/SQL Stored Procedures for transfers/withdrawals |
-| **`07_views_and_reports.sql`** | Analytics Layer: Pre-aggregated Views for customer summaries and daily transactions |
-| **`08_security_and_roles.sql`** | Access Control: Custom roles (`bank_teller`, `bank_analyst`) and privilege grants |
+**`01_create_tablespaces.sql`** Storage allocation: Creates dedicated Tablespaces & Datafiles 
+**`02_create_security_profiles.sql`** Security policies: Password complexity, failed login limits, and session idle times
+**`03_create_users.sql`** User administration: Creates administrative accounts and assigns quotas/profiles
+**`04_create_schema.sql`** Schema DDL: Customer, Account, Branch, and Transaction tables with constraints
+**`05_create_indexes_and_sequences.sql`** Performance & Keys: B-Tree indexes for fast queries & Sequences for auto-IDs
+**`06_data_and_plsql.sql`** Data & Logic: Mock data insertion & PL/SQL Stored Procedures for transfers/withdrawals
+**`07_views_and_reports.sql`** Analytics Layer: Pre-aggregated Views for customer summaries and daily transactions
+**`08_security_and_roles.sql`** Access Control: Custom roles (`bank_teller`, `bank_analyst`) and privilege grants
 
 ## Architecture & Key Highlights
 1. Database Storage & Security Administration  
